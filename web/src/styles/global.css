@@ -38,6 +38,8 @@ input[type='date']:disabled{
     font-size: 15px;
 }
 
+
+
 .bg-secundary{
     background-color: var(--secondary) !important;
 }
@@ -53,6 +55,15 @@ input[type='date']:disabled{
 
 .bg-primary {
     background-color: var(--primary) !important;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:disabled,
+.btn-primary:hover{
+    background-color: var(--primary) !important;
+    border-color: var(--primary);
 }
 
 .box {
