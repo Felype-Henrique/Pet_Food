@@ -1,6 +1,8 @@
 import Header from "../../components/header";
 
 import './style.css'
+
+import Product from "../../components/product/list";
 const Checkout = () => {
   return (
     <div className="h-100">
@@ -75,7 +77,7 @@ const Checkout = () => {
             <div className="box col mb-4">
               <h5>Minha Sacola (5)</h5>
 
-              <div className="row products"></div>
+              <div className="row products"> <Product/></div>
             </div>
           </div>
         </div>
