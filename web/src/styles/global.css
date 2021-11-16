@@ -2,6 +2,7 @@
 
 :root {
     --primary: #06d6a6;
+    --secondary: #FA643D; 
 }
 
 html,
@@ -12,6 +13,52 @@ body{
     letter-spacing: -0.03em;
 }
 
+input[type='text'],
+input[type='email'],
+input[type='passoword'],
+input[type='date']{
+    font-size: 15px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='passoword'],
+input[type='date']
+input[type='text']:disabled
+input[type='email']:disabled
+input[type='passoword']:disabled
+input[type='date']:disabled{
+    background: #f6f5f5;
+    border: 0.5px solid #dcdcdc;
+    outline: none;
+    color: #626264;
+}
+
+.btn{
+    font-size: 15px;
+}
+
+.bg-secundary{
+    background-color: var(--secondary) !important;
+}
+
+.btn-secundary,
+.btn-secundary:focus,
+.btn-secundary:active,
+.btn-secundary:disabled,
+.btn-secundary:hover{
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary);
+}
+
 .bg-primary {
     background-color: var(--primary) !important;
+}
+
+.box {
+    background: #fff;
+    box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px;
 }
