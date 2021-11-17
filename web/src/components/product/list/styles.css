@@ -18,8 +18,7 @@
     display: block;
 }
 
-product-list button{
-    position: absolute;
+.product-list button{
     right: 30px;
     padding: 1px 14px;
     font-size: 25px;
