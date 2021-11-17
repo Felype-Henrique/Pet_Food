@@ -1,5 +1,6 @@
 import Header from '../../components/header'
 import './styles.css'
+import Product from '../../components/product/card'
 
 const Petshop = () => {
     return(
@@ -22,7 +23,9 @@ const Petshop = () => {
                         </div>
                         <label className="badge badge-primary">Frete Grátis</label>
                     </div>
-                    <div className="col-10"></div>
+                    <div className="col-10">
+                        <h5>Produtos</h5>
+                    </div>
                 </div>
             </div>
         </div>
