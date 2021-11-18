@@ -39,16 +39,16 @@ input[type='date']:disabled{
 
 
 
-.bg-secundary{
+.bg-secondary{
     background-color: rgb(var(--secondary)) !important;
 }
 
-.btn-secundary,
-.btn-secundary:focus,
-.btn-secundary:active,
-.btn-secundary:disabled,
-.btn-secundary:hover{
-    background-color: (rgb) !important;
+.btn-secondary,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary:disabled,
+.btn-secondary:hover{
+    background-color: rgb(var(--secondary)) !important;
     border-color: rgb(var(--secondary));
 }
 

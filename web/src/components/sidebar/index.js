@@ -31,9 +31,13 @@ const Sidebar = () => {
         </div>
         <div className="row footer">
             <div className="col-12">
-                <b>Total</b>
-                <h3>R$ 90,00</h3>
+                <div className="justify-content-between d-flex texto">
+                  <b className="inline-block">Total</b>
+                <h3 className="inline-block">R$ 90,00</h3>  
+                </div>
+                <button className="btn btn-block btn-lg btn-primary rounded-0 h-40 w-100 align-items-center">Finalizar Compra</button>
             </div>
+            
         </div>
       </div>
     </Dock>

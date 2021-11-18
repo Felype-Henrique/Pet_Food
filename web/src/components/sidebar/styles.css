@@ -1,0 +1,18 @@
+.sidebar h5 {
+    height: 30px;
+    margin-bottom: 0;
+}
+
+.sidebar .footer{
+    height: 130px;
+    background-color: #f6f5f5;
+}
+
+.texto {
+    margin-top: 50px;
+}
+
+.products {
+    height: 70%;
+    overflow: auto;
+}
