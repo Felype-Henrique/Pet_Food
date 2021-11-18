@@ -2,14 +2,14 @@ import './styles.css';
 
 const Petshop = () => {
   return (
-    <li className="petshop d-inline-block">
+    <li className="petshop d-inline-block ">
         <div className="d-inline-block">
       <img
         src="https://www.petlove.com.br/static/uploads/banner_image/image/4304/logo-petlove-push.png"
-        className="img-fluid petshop-image"
+        className="img-fluid"
       />
         </div>
-        <div className="d-inline-block">
+        <div className="d-inline-block petLove">
       <b>PetLove</b>
       <div className="petshop-infos">
         <span className="mdi mdi-star"></span>
