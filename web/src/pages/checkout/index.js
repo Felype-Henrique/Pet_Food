@@ -78,7 +78,8 @@ const Checkout = () => {
               <h5>Minha Sacola (5)</h5>
 
               <div className="row products">
-                {[1,2,3,4,5,6,7,8,9].map(p =><Product/>)}</div>
+                {[1,2,3,4,5,6,7,8,9].map(p =><Product/>)}
+                </div>
             </div>
           </div>
         </div>
