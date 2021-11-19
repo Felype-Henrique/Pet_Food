@@ -1,25 +1,25 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes,Route , Link } from 'react-router-dom'
 
 import './styles/global.css'
-
-import Sidebar from './components/sidebar';
-import Cadastro from './pages/cadastro'
+import Cadastro from './pages/cadastro/'
 import Checkout from './pages/checkout'
-import Petshop from './pages/petshop'
 import Home from './pages/home'
+import PetShop from './pages/petshop'
+import SideBar from './components/sidebar'
 
-const Routes = () => {
-    return(
+const Rout = () => {
+	return (
         <>
-        <Router>
-            <Route path="/" exact component={Home}/>
-            <Route path="/petshop/:id" exact component={Petshop}/>
-            <Route path="/checkout" exact component={Checkout}/>
-            <Route path="/cadastro" exact component={Cadastro}/>
+		<Router>
+            <Routes>
+                <Route path="/" element={<Home/>}></Route>
+                <Route path="/petshop/:id" element={<PetShop/>}></Route>
+                <Route path="/checkout" element={<Checkout/>}></Route>
+                <Route path="/cadastro" element={<Cadastro/>}></Route>
+            </Routes>
         </Router>
-        <Sidebar/>
+        <SideBar/>
         </>
-    )
+	)
 }
-
-export default Routes;
+export default Rout;
