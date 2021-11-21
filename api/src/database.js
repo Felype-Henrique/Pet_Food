@@ -1,10 +1,6 @@
 const mongoose = require("mongoose");
 const URI = "mongodb://localhost/petfood";
 
-mongoose.set('useNewUrlParser', true);
-mongoose.set('useFindAndModify', false);
-mongoose.set('useUnifiedTopology', true);
-mongoose.set('debug', true);
 
 mongoose
   .connect(URI)
