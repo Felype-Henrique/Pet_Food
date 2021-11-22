@@ -12,4 +12,4 @@ const product = newShema({
     avaliacoes: Number,
 })
 
-module.exports = mongoose.model('Product', productp);
+module.exports = mongoose.model('Product', product);
